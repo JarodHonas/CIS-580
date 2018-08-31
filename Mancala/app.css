@@ -1,0 +1,60 @@
+body {
+}
+
+
+.board {
+    position: relative;
+    background-image: url(images/walnut_wood.jpg);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 875px;
+    height: 300px; 
+}
+
+.rowsTop {
+    position: absolute;
+    flex-direction: row;
+}
+.rowsBot {
+    position: absolute;
+    top: 220px;
+}
+
+.slot{
+    color: white;
+    position: relative;
+    left: 125px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, .55);
+    border-radius: 50%;
+    display: inline-block;
+}
+.scoreSlotLeft {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .55);
+    
+}
+.scoreSlotRight {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .55);
+    
+}
+.newGame {
+    position: absolute;
+    margin-top: 25px;
+    left: 435px;
+}

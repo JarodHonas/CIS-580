@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mancala</title>
+    <h1>Mancala</h1>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <p id = "turnText">It's Player one's turn:</p>
+
+
+    <div class = board>
+        <div class = scoreSlotLeft id = 14><p>0</p></div>
+        <div class = scoreSlotRight id = 7><p>0</p></div>
+        <div class = rowsTop>
+            <div class = slot id = 13><p>4</p></div>
+            <div class = slot id = 12><p>4</p></div>
+            <div class = slot id = 11><p>4</p></div>
+            <div class = slot id = 10><p>4</p></div>
+            <div class = slot id = 9><p>4</p></div>
+            <div class = slot id = 8><p>4</p></div> 
+        </div>
+        <div class = rowsBot>
+            <div class = slot id = 1><p>4</p></div>
+            <div class = slot id = 2><p>4</p></div>
+            <div class = slot id = 3><p>4</p></div>
+            <div class = slot id = 4><p>4</p></div>
+            <div class = slot id = 5><p>4</p></div>
+            <div class = slot id = 6><p>4</p></div>
+        </div>
+    </div>
+    <button class=newGame, onclick="initGame()">New Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
