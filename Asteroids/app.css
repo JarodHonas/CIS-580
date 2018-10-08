@@ -1,0 +1,9 @@
+canvas {
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px gray;
+    background-color: black;
+  }
+
+body {
+    background-color: #353a42;
+}
